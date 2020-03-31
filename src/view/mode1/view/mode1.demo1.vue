@@ -1,13 +1,14 @@
 <template>
     <div>
         <p>这是mode1.demo1页面</p>
-        <img :src="{img}" alt="">
+        <img :src="img" alt="">
         <Button></Button>
     </div>
     
 </template>
 <script>
     import Button from '@/view/mode1/view/button'
+    
     export default {
         components: {
             Button
@@ -18,7 +19,6 @@
             }
         },
         created () {
-            console.log(this.img)
         }
     }
 </script>

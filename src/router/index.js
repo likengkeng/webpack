@@ -6,7 +6,6 @@ const myNav = () => import('../view/index.vue');
  * data2: 布尔值，true：检测目标文件夹下的文件夹，false不检查子文件夹
  * data3: 正则，要匹配的文件  => 匹配 中间是 router.js 文件
  */
-console.log(require('../assets/app2.png'))
 const r = require.context('../view', true, /\.router\.js/)
 let arr = []
 r.keys().forEach(key => {

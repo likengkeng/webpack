@@ -234,13 +234,16 @@ module.exports = {
                     options: {
                         /** 文件大小 */
                       limit: 10240,
-                      fallback: {
-                          /** 插件 */
-                        loader: 'file-loader',
-                        options: {
-                            name: 'img/[name].[hash:8].[ext]'
-                        }
-                      }
+                      esModule: false,
+                      name: 'img/[name].[hash:8].[ext]'
+                      // fallback: {
+                      //     /** 插件 */
+                      //   loader: 'file-loader',
+                        
+                      //   options: {
+                      //       name: 'img/[name].[hash:8].[ext]'
+                      //   }
+                      // }
                     }
                   }
                 ]
@@ -335,7 +338,7 @@ module.exports = {
         port:3000,
         /** 模块热更新 */
         hot:true,
-        contentBase:'../dist',
+        contentBase:'../public',
         /** 一下两项配置需要修改 package.json 的scripts 配置*/
         /**
          * 用于配置自动打开指定URL的网页
