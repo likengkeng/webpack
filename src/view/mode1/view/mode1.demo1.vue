@@ -1,15 +1,24 @@
 <template>
-    <div>这是mode1.demo1页面</div>
+    <div>
+        <p>这是mode1.demo1页面</p>
+        <img :src="{img}" alt="">
+        <Button></Button>
+    </div>
+    
 </template>
 <script>
+    import Button from '@/view/mode1/view/button'
     export default {
+        components: {
+            Button
+        },
         data () {
             return {
-                header: '测试消息111'
+                img: require('@/assets/app2.png')
             }
         },
         created () {
-            console.log(21212121)
+            console.log(this.img)
         }
     }
 </script>
