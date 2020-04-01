@@ -40,7 +40,7 @@ npm init  :  初始化项目
 
 ├── /*webpack-parallel-uglify-plugin*/   优化代码压缩时间
 
-├── 
+├── babel-plugin-component      实现element-ui模块按需加载
 
 ├── 
 

@@ -17,7 +17,7 @@ Vue.use(Router)
 export default new Router({
     routes: [
         {
-            path: '/index.html',
+            path: '/',
             name: 'index',
             component: myNav,
             children: [...arr]
