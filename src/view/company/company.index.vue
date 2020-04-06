@@ -1,11 +1,13 @@
 <template>
     <div>
-        <button>我是组件</button>
+        <p>这是mode1.demo1页面</p>
     </div>
     
 </template>
 <script>
+    
     export default {
+
         data () {
             return {
                 

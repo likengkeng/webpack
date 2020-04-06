@@ -1,16 +1,20 @@
 // import Vue from 'vue';
 import { 
     Button,
-    Collapse,
-    CollapseItem,
+    Menu,
+    Submenu,
+    MenuItem,
+    MenuItemGroup,
 } from 'element-ui';
 
 
 const element = {
     install: function (Vue) {
         Vue.use(Button);
-        Vue.use(Collapse);
-        Vue.use(CollapseItem);
+        Vue.use(Menu);
+        Vue.use(Submenu);
+        Vue.use(MenuItem);
+        Vue.use(MenuItemGroup);
     }
    }
    export default element
