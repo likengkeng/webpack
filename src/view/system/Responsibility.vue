@@ -34,9 +34,9 @@
         created () {
         },
         methods: {
-            see(item){},
-            edit(item){},
-            del(item){},
+            see(item) {},
+            edit(item) {},
+            del(item) {},
         }
     }
 </script>

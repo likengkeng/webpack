@@ -1,13 +1,11 @@
 <template>
     <div>
-        <p>这是设备保修页面</p>
+        <p>这是角色管理页面</p>
     </div>
     
 </template>
-<script>
-    
+<script>   
     export default {
-
         data () {
             return {
                 

@@ -1,16 +1,13 @@
 <template>
     <div>
-        <p>这是mode1.demo1页面</p>
+        <p>消防工作记录信息</p>
+        <router-view></router-view>
     </div>
-    
 </template>
-<script>
-    
+<script> 
     export default {
-
         data () {
-            return {
-                
+            return {               
             }
         },
         created () {

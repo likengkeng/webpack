@@ -1,11 +1,10 @@
 <template>
     <div>
-        <p>这是单位基本信息页面</p>
+        <p>这是单位消防系统页面</p>
     </div>
     
 </template>
-<script>
-    
+<script>    
     export default {
 
         data () {

@@ -1,22 +1,19 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Company from './route/company.router.js'
-import Home from './route/home.router.js'
-import Record from './route/record.router.js'
-import Staff from './route/staff.router.js'
-import System from './route/system.router.js'
-
+import Company from './company.js'
+import Home from './home.js'
+import Record from './record.js'
+import Staff from './staff.js'
+import System from './system.js'
 
 Vue.use(Router)
 export default new Router({
-    routes: [
-        {
-            path: '/',
-            name: 'index',
-            component(resolve) {
-                require(['../view/index.vue'], resolve)
-            },
-            children: [...Home, ...System, ...Staff,  ...Company, ...Record]
-        }
-    ]
+    // mode: 'history',
+    routes: [ 
+        ...Home, 
+        ...System, 
+        ...Staff,  
+        ...Company, 
+        ...Record,
+    ],
 })
