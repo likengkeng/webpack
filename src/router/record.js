@@ -1,6 +1,6 @@
-const Guarantee= () => import(/* webpackChunkName: "record.guarantee" */ '@/view/record/Guarantee.vue');
-const Patrol= () => import(/* webpackChunkName: "record.patrol" */ '@/view/record/Patrol.vue');
-const Index= () => import(/* webpackChunkName: "record.patrol" */ '@/view/record/Index.vue');
+const Guarantee= () => import(/* webpackChunkName: "recordGuarantee" */ '@/view/record/Guarantee.vue');
+const Patrol= () => import(/* webpackChunkName: "recordPatrol" */ '@/view/record/Patrol.vue');
+const Index= () => import(/* webpackChunkName: "recordIndex" */ '@/view/record/Index.vue');
 export default [
   {
     path: '/record',

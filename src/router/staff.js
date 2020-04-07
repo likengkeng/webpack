@@ -1,11 +1,13 @@
-const Department= () => import(/* webpackChunkName: "staff.department" */ '@/view/staff/Department.vue');
-const Role= () => import(/* webpackChunkName: "staff.role" */ '@/view/staff/Role.vue');
-const Staff= () => import(/* webpackChunkName: "staff.staff" */ '@/view/staff/Staff.vue');
+const Index= () => import(/* webpackChunkName: "staffIndex" */ '@/view/staff/Index.vue');
+const Department= () => import(/* webpackChunkName: "staffDepartment" */ '@/view/staff/Department.vue');
+const Role= () => import(/* webpackChunkName: "staffRole" */ '@/view/staff/Role.vue');
+const Staff= () => import(/* webpackChunkName: "staffStaff" */ '@/view/staff/Staff.vue');
 export default [
   {
     path: '/staff',
     name: 'staff',
     meta: { name: '人员管理', header: true },
+    component: Index,
     children: [
         {
             path: '/staff-department',

@@ -1,4 +1,5 @@
 const Index= () => import(/* webpackChunkName: "company.index" */ '@/view/company/Index.vue');
+const Basics= () => import(/* webpackChunkName: "company.basics" */ '@/view/company/Basics.vue');
 const Build= () => import(/* webpackChunkName: "company.build" */ '@/view/company/Build.vue');
 const Device= () => import(/* webpackChunkName: "company.device" */ '@/view/company/Device.vue');
 const FireControl= () => import(/* webpackChunkName: "company.fire-control" */ '@/view/company/FireControl.vue');
@@ -10,10 +11,10 @@ export default [
     component: Index,
     children: [
       {
-        path: '/company-index',
-        name: 'company-index',
+        path: '/company-basics',
+        name: 'company-basics',
         meta: { name: '单位基本信息', header: true },
-        component: Index,
+        component: Basics,
       },
       {
         path: '/company-build',

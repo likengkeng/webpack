@@ -1,4 +1,4 @@
-const Index= () => import(/* webpackChunkName: "system-standard" */ '@/view/system/Index.vue');
+const Index= () => import(/* webpackChunkName: "system-index" */ '@/view/system/Index.vue');
 const Responsibility= () => import(/* webpackChunkName: "system-responsibility" */ '@/view/system/Responsibility.vue');
 const Standard= () => import(/* webpackChunkName: "system-standard" */ '@/view/system/Standard.vue');
 export default [
