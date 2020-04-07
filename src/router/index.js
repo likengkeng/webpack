@@ -16,7 +16,7 @@ export default new Router({
             component(resolve) {
                 require(['../view/index.vue'], resolve)
             },
-            children: [...Company, ...Home, ...Record, ...Staff, ...System]
+            children: [...Home, ...System, ...Staff,  ...Company, ...Record]
         }
     ]
 })

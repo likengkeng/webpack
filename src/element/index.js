@@ -5,6 +5,8 @@ import {
     Submenu,
     MenuItem,
     MenuItemGroup,
+    Row,
+    Col,
 } from 'element-ui';
 
 
@@ -15,6 +17,8 @@ const element = {
         Vue.use(Submenu);
         Vue.use(MenuItem);
         Vue.use(MenuItemGroup);
+        Vue.use(Row);
+        Vue.use(Col);
     }
    }
    export default element

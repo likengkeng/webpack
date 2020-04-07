@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p>这是部门管理页面</p>
+        <p>这是设备管理页面</p>
     </div>
     
 </template>

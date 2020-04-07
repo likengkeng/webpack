@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p>这是mode1.demo1页面</p>
+        <p>这是设备保修页面</p>
     </div>
     
 </template>

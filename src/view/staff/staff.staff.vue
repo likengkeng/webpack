@@ -1,3 +1,3 @@
 <template>
-    <div>这是mode2.demo1页面</div>
+    <div>这是人员管理页面</div>
 </template>
